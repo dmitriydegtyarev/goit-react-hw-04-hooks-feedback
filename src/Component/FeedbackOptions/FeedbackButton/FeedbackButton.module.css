@@ -1,0 +1,24 @@
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.button {
+  padding: 6px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.good {
+  composes: button;
+  background-color: green;
+}
+
+.neutral {
+  composes: button;
+  background-color: yellow;
+}
+
+.bad {
+  composes: button;
+  background-color: red;
+}

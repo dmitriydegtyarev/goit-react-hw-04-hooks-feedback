@@ -1,0 +1,13 @@
+.section {
+  padding: 20px;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: center;
+}
